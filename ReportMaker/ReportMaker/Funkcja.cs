@@ -38,6 +38,10 @@ namespace ReportMaker
         {
             return Math.Exp(x);
         }
+        public double Potegowanie(double x,double n)
+        {
+            return Math.Pow(x, n);
+        }
     }
 
 
