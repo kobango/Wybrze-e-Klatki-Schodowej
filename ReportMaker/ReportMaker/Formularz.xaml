@@ -15,7 +15,9 @@
             <RowDefinition/>
         </Grid.RowDefinitions>
         <TextBlock Name="RodzajFunkcjiBlock" Grid.Row="0" Width="200" Height="25" VerticalAlignment="Center" TextAlignment="Center" Text="Podaj rodzaj funkcji:"/>
-        <ComboBox Name="RodzajFunkcjiComboBox" Grid.Row="1"  Width="200" Height="25" VerticalAlignment="Center" />
+        <ComboBox Name="RodzajFunkcjiComboBox" Grid.Row="1"  Width="200" Height="25" VerticalAlignment="Center">
+            
+        </ComboBox>
         <TextBlock Name="PomiaryBlock" Grid.Row="2" Width="200" Height="25" VerticalAlignment="Center" TextAlignment="Center" Text="Podaj ilość pomiarów:"/>
         <TextBox Name="PomiaryBox" Grid.Row="3" Width="100" Height="25" VerticalAlignment="Center" TextAlignment="Center" Background="LightGray"/>
         <Button Name="PodanoButton" Grid.Row="4" Width="100" Height="25" VerticalAlignment="Center" Content="Dalej"/>
