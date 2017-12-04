@@ -7,7 +7,16 @@
         mc:Ignorable="d"
         Title="Dane" Height="300" Width="300">
     <Grid>
-        <DataGrid>
+        <DataGrid AutoGenerateColumns="False" 
+          Height="200" 
+          HorizontalAlignment="Left" 
+          Name="DaneGrid" 
+          VerticalAlignment="Top" 
+          Width="100">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="X" Width="50"/>
+                <DataGridTextColumn Header="Y" Width="50"/>
+            </DataGrid.Columns>
         </DataGrid>
     </Grid>
 </Window>
