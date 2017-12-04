@@ -5,8 +5,15 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ReportMaker"
         mc:Ignorable="d"
-        Title="ReportMaker999" Height="1000" Width="1000">
+        Title="ReportMaker999" Height="350" Width="600"
+        WindowState="Maximized">
     <Grid>
-        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Button Name="NowyButton" Width="200" Height="50" VerticalAlignment="Center" HorizontalAlignment="Center" Content="Nowy plik" Click="NowyButton_Click"/>
+        <Button Name="WczytajButton" Width="200" Height="50" VerticalAlignment="Center" HorizontalAlignment="Center" Content="Wczytaj plik"
+                Grid.Column="1"/>
     </Grid>
 </Window>
