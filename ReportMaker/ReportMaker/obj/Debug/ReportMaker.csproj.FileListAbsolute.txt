@@ -1,1 +1,2 @@
 C:\Users\gobli_000\Desktop\Studia\Programowanie\C#\ReportMaker\ReportMaker\bin\Debug\ReportMaker.exe.config
+C:\Users\gobli_000\Documents\GitHub\Wybrze-e-Klatki-Schodowej\ReportMaker\ReportMaker\bin\Debug\ReportMaker.exe.config
