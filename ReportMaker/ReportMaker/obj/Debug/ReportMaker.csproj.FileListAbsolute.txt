@@ -3,11 +3,9 @@ C:\Users\gobli_000\Documents\GitHub\Wybrze-e-Klatki-Schodowej\ReportMaker\Report
 C:\Users\gobli_000\Documents\GitHub\Wybrze-e-Klatki-Schodowej\ReportMaker\ReportMaker\bin\Debug\ReportMaker.exe
 C:\Users\gobli_000\Documents\GitHub\Wybrze-e-Klatki-Schodowej\ReportMaker\ReportMaker\bin\Debug\ReportMaker.pdb
 C:\Users\gobli_000\Documents\GitHub\Wybrze-e-Klatki-Schodowej\ReportMaker\ReportMaker\obj\Debug\ReportMaker.csprojResolveAssemblyReference.cache
-C:\Users\gobli_000\Documents\GitHub\Wybrze-e-Klatki-Schodowej\ReportMaker\ReportMaker\obj\Debug\MainWindow.g.cs
 C:\Users\gobli_000\Documents\GitHub\Wybrze-e-Klatki-Schodowej\ReportMaker\ReportMaker\obj\Debug\App.g.cs
 C:\Users\gobli_000\Documents\GitHub\Wybrze-e-Klatki-Schodowej\ReportMaker\ReportMaker\obj\Debug\ReportMaker_MarkupCompile.cache
 C:\Users\gobli_000\Documents\GitHub\Wybrze-e-Klatki-Schodowej\ReportMaker\ReportMaker\obj\Debug\ReportMaker_MarkupCompile.lref
-C:\Users\gobli_000\Documents\GitHub\Wybrze-e-Klatki-Schodowej\ReportMaker\ReportMaker\obj\Debug\MainWindow.baml
 C:\Users\gobli_000\Documents\GitHub\Wybrze-e-Klatki-Schodowej\ReportMaker\ReportMaker\obj\Debug\ReportMaker.g.resources
 C:\Users\gobli_000\Documents\GitHub\Wybrze-e-Klatki-Schodowej\ReportMaker\ReportMaker\obj\Debug\ReportMaker.Properties.Resources.resources
 C:\Users\gobli_000\Documents\GitHub\Wybrze-e-Klatki-Schodowej\ReportMaker\ReportMaker\obj\Debug\ReportMaker.csproj.GenerateResource.Cache
@@ -15,6 +13,7 @@ C:\Users\gobli_000\Documents\GitHub\Wybrze-e-Klatki-Schodowej\ReportMaker\Report
 C:\Users\gobli_000\Documents\GitHub\Wybrze-e-Klatki-Schodowej\ReportMaker\ReportMaker\obj\Debug\ReportMaker.pdb
 C:\Users\gobli_000\Documents\GitHub\Wybrze-e-Klatki-Schodowej\ReportMaker\ReportMaker\obj\Debug\Formularz.g.cs
 C:\Users\gobli_000\Documents\GitHub\Wybrze-e-Klatki-Schodowej\ReportMaker\ReportMaker\obj\Debug\Formularz.baml
+<<<<<<< HEAD
 C:\Users\user\Documents\GitHub\Wybrze-e-Klatki-Schodowej\ReportMaker\ReportMaker\bin\Debug\ReportMaker.exe.config
 C:\Users\user\Documents\GitHub\Wybrze-e-Klatki-Schodowej\ReportMaker\ReportMaker\bin\Debug\ReportMaker.exe
 C:\Users\user\Documents\GitHub\Wybrze-e-Klatki-Schodowej\ReportMaker\ReportMaker\bin\Debug\ReportMaker.pdb
@@ -32,3 +31,9 @@ C:\Users\user\Documents\GitHub\Wybrze-e-Klatki-Schodowej\ReportMaker\ReportMaker
 C:\Users\user\Documents\GitHub\Wybrze-e-Klatki-Schodowej\ReportMaker\ReportMaker\obj\Debug\ReportMaker.csproj.CoreCompileInputs.cache
 C:\Users\user\Documents\GitHub\Wybrze-e-Klatki-Schodowej\ReportMaker\ReportMaker\obj\Debug\ReportMaker.exe
 C:\Users\user\Documents\GitHub\Wybrze-e-Klatki-Schodowej\ReportMaker\ReportMaker\obj\Debug\ReportMaker.pdb
+=======
+C:\Users\gobli_000\Documents\GitHub\Wybrze-e-Klatki-Schodowej\ReportMaker\ReportMaker\obj\Debug\Dane.g.cs
+C:\Users\gobli_000\Documents\GitHub\Wybrze-e-Klatki-Schodowej\ReportMaker\ReportMaker\obj\Debug\Dane.baml
+C:\Users\gobli_000\Documents\GitHub\Wybrze-e-Klatki-Schodowej\ReportMaker\ReportMaker\obj\Debug\OknoGlowne.g.cs
+C:\Users\gobli_000\Documents\GitHub\Wybrze-e-Klatki-Schodowej\ReportMaker\ReportMaker\obj\Debug\OknoGlowne.baml
+>>>>>>> acd4484c24912d4ae16985caea525f1f0d0af45f

@@ -15,23 +15,13 @@ using System.Windows.Shapes;
 namespace ReportMaker
 {
     /// <summary>
-    /// Interaction logic for Formularz.xaml
+    /// Interaction logic for Dane.xaml
     /// </summary>
-    public partial class Formularz : Window
+    public partial class Dane : Window
     {
-        public Formularz()
+        public Dane(int liczbaPomiarów, string wybranaFunkcja)
         {
             InitializeComponent();
-        }
-
-        private void PodanoButton_Click(object sender, RoutedEventArgs e)
-        {
-            int liczbaPomiarow = int.Parse(PomiaryBox.Text);
-            string wybranaFunkcja = RodzajFunkcjiComboBox.SelectionBoxItem.ToString();
-            Dane d = new Dane(liczbaPomiarow, wybranaFunkcja);
-            d.Show();
-            this.Close();
-            
         }
     }
 }

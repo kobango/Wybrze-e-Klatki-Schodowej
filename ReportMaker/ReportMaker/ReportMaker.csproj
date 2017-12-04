@@ -55,11 +55,15 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Page Include="Dane.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Formularz.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="MainWindow.xaml">
+    <Page Include="OknoGlowne.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
@@ -67,12 +71,20 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Dane.xaml.cs">
+      <DependentUpon>Dane.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Formularz.xaml.cs">
       <DependentUpon>Formularz.xaml</DependentUpon>
     </Compile>
+<<<<<<< HEAD
     <Compile Include="Funkcja.cs" />
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
+=======
+    <Compile Include="OknoGlowne.xaml.cs">
+      <DependentUpon>OknoGlowne.xaml</DependentUpon>
+>>>>>>> acd4484c24912d4ae16985caea525f1f0d0af45f
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>

@@ -16,10 +16,16 @@
         </Grid.RowDefinitions>
         <TextBlock Name="RodzajFunkcjiBlock" Grid.Row="0" Width="200" Height="25" VerticalAlignment="Center" TextAlignment="Center" Text="Podaj rodzaj funkcji:"/>
         <ComboBox Name="RodzajFunkcjiComboBox" Grid.Row="1"  Width="200" Height="25" VerticalAlignment="Center">
-            
+            <ComboBoxItem Height="20" HorizontalContentAlignment="Center">x+y</ComboBoxItem>
+            <ComboBoxItem Height="20" HorizontalContentAlignment="Center">x-y</ComboBoxItem>
+            <ComboBoxItem Height="20" HorizontalContentAlignment="Center">x*y</ComboBoxItem>
+            <ComboBoxItem Height="20" HorizontalContentAlignment="Center">x/y</ComboBoxItem>
+            <ComboBoxItem Height="20" HorizontalContentAlignment="Center">ln(x)</ComboBoxItem>
+            <ComboBoxItem Height="20" HorizontalContentAlignment="Center">exp(x)</ComboBoxItem>
+            <ComboBoxItem Height="20" HorizontalContentAlignment="Center">x^n</ComboBoxItem>
         </ComboBox>
         <TextBlock Name="PomiaryBlock" Grid.Row="2" Width="200" Height="25" VerticalAlignment="Center" TextAlignment="Center" Text="Podaj ilość pomiarów:"/>
         <TextBox Name="PomiaryBox" Grid.Row="3" Width="100" Height="25" VerticalAlignment="Center" TextAlignment="Center" Background="LightGray"/>
-        <Button Name="PodanoButton" Grid.Row="4" Width="100" Height="25" VerticalAlignment="Center" Content="Dalej"/>
+        <Button Name="PodanoButton" Grid.Row="4" Width="100" Height="25" VerticalAlignment="Center" Content="Dalej" Click="PodanoButton_Click"/>
     </Grid>
 </Window>

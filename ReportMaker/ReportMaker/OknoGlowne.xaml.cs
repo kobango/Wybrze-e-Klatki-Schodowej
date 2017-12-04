@@ -29,6 +29,7 @@ namespace ReportMaker
         {
             Formularz f = new Formularz();
             f.Show();
+            this.Close();
         }
     }
 }
