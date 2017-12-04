@@ -4,32 +4,17 @@
 winexe
 C#
 .cs
-<<<<<<< HEAD
-C:\Users\user\Documents\GitHub\Wybrze-e-Klatki-Schodowej\ReportMaker\ReportMaker\obj\Debug\
-=======
 C:\Users\gobli_000\Documents\GitHub\Wybrze-e-Klatki-Schodowej\ReportMaker\ReportMaker\obj\Debug\
->>>>>>> 7aa319eb9d307e59293c8938a471a0576e672131
 ReportMaker
 none
 false
 DEBUG;TRACE
-<<<<<<< HEAD
-C:\Users\user\Documents\GitHub\Wybrze-e-Klatki-Schodowej\ReportMaker\ReportMaker\App.xaml
-2-1594081384
-
-10-1414524330
-=======
 C:\Users\gobli_000\Documents\GitHub\Wybrze-e-Klatki-Schodowej\ReportMaker\ReportMaker\App.xaml
-3-806301706
+31092138623
 
-<<<<<<< HEAD
-111385577357
-=======
-10-1612213091
->>>>>>> 7aa319eb9d307e59293c8938a471a0576e672131
->>>>>>> bcb2f2ed9f07c8381d571cb7356ad71fedd90463
+11-792913441
 13738642453
-Dane.xaml;Formularz.xaml;MainWindow.xaml;
+Dane.xaml;Formularz.xaml;OknoGlowne.xaml;
 
-False
+True
 

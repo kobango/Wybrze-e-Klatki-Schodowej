@@ -19,7 +19,7 @@ namespace ReportMaker
     /// </summary>
     public partial class Dane : Window
     {
-        public Dane()
+        public Dane(int liczbaPomiarów, string wybranaFunkcja)
         {
             InitializeComponent();
         }

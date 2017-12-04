@@ -63,7 +63,7 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="MainWindow.xaml">
+    <Page Include="OknoGlowne.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
@@ -77,8 +77,8 @@
     <Compile Include="Formularz.xaml.cs">
       <DependentUpon>Formularz.xaml</DependentUpon>
     </Compile>
-    <Compile Include="MainWindow.xaml.cs">
-      <DependentUpon>MainWindow.xaml</DependentUpon>
+    <Compile Include="OknoGlowne.xaml.cs">
+      <DependentUpon>OknoGlowne.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>

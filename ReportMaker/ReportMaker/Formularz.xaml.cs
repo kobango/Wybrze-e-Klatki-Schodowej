@@ -23,5 +23,15 @@ namespace ReportMaker
         {
             InitializeComponent();
         }
+
+        private void PodanoButton_Click(object sender, RoutedEventArgs e)
+        {
+            int liczbaPomiarow = int.Parse(PomiaryBox.Text);
+            string wybranaFunkcja = RodzajFunkcjiComboBox.SelectionBoxItem.ToString();
+            Dane d = new Dane(liczbaPomiarow, wybranaFunkcja);
+            d.Show();
+            this.Close();
+            
+        }
     }
 }
