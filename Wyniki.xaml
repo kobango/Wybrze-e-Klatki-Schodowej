@@ -1,0 +1,55 @@
+﻿<Window x:Class="ReportMaker.Wyniki"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ReportMaker"
+        mc:Ignorable="d"
+        Title="ReportMaker5000" Height="300" Width="600" ResizeMode="NoResize">
+    <Grid Name="Siatka"  DataContext="Dane">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="10*"/>
+            <ColumnDefinition Width="3*"/>
+            <ColumnDefinition Width="3*"/>
+        </Grid.ColumnDefinitions>
+        <Grid Grid.Column="1">
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <TextBlock Text="X średnie:" Grid.Row="0" Width="100" Height="25"/>
+            <TextBox Name="XsrBox" Grid.Row="1" Width="100" Height="25" ToolTip="Liczony ze wzoru na średnią artmetyczną dla zmiennej x"/>
+            <TextBlock Text="Y średnie:" Grid.Row="2" Width="100" Height="25"/>
+            <TextBox Name="YsrBox" Grid.Row="3" Width="100" Height="25" ToolTip="Liczony ze wzoru na średnią artmetyczną dla zmiennej y"/>
+            <TextBlock Text="Wynik:" Grid.Row="4" Width="100" Height="25"/>
+            <TextBox Name="WynikBox" Grid.Row="5" Width="100" Height="25" ToolTip="Wynik wybranej funkcji (np. x+y) dla X średniego i Y średniego"/>
+            <TextBlock Text="Błąd pomiarowy:" Grid.Row="6" Width="100" Height="25"/>
+            <TextBox Name="FsrBox" Grid.Row="7" Width="100" Height="25" ToolTip="(df/dx)*dX + (df/dy)*dY"/>
+        </Grid>
+        <ScrollViewer VerticalScrollBarVisibility="Visible">
+            <Grid Name="Tablica" Margin="3" />
+        </ScrollViewer>
+
+        <Grid Grid.Column="2">
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Button Name="ZapiszWynikiButton" Grid.Row="0" Width="100" Height="25" VerticalAlignment="Center" HorizontalAlignment="Center" Content="Zapisz wyniki" Click="ZapiszWynikiButton_Click"/>
+            <Button Name="ZapiszPomiaryButton" Grid.Row="1" Width="100" Height="25" VerticalAlignment="Center" HorizontalAlignment="Center" Content="Zapisz pomiary" Click="ZapiszPomiaryButton_Click"/>
+        </Grid>
+
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="CornflowerBlue" Offset="0" />
+                <GradientStop Color="Ivory" Offset="0.5" />
+            </LinearGradientBrush>
+        </Grid.Background>
+    </Grid>
+</Window>
