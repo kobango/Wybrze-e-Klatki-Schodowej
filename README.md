@@ -1,2 +1,4 @@
 # Wybrze-e-Klatki-Schodowej
-Programeł
+
+
+Hackaton "Make Students Life Easier", Gliwice 2018
